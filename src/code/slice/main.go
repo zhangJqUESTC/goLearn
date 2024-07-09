@@ -21,4 +21,6 @@ func main() {
 	var d string = "abcd"
 	fmt.Printf(d)
 	fmt.Println(e)
+	// 追加多个元素，追加一个切片
+	// 容量会变化，即动态扩容，应该尽量避免
 }
